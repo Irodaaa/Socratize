@@ -3,7 +3,7 @@ import { CheckIcon } from '@heroicons/react/outline';
 
 const AllInOne = () => {
   return (
-    <div name='platforms' className='w-full my-32 font-poppins'>
+    <div name='platforms' className='w-full my-32 font-poppinss text-hover'>
       <div className='max-w-[1240px] mx-auto px-2'>
         <h2 className='text-5xl font-bold text-center'>Tutor platformasi</h2>
         <p className='text-2xl py-8 text-gray-500 text-center'>
@@ -12,14 +12,14 @@ const AllInOne = () => {
           nostrum tempore.
         </p>
 
-        <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4'>
+        <div className='grid sm:grid-cols-2 lg:grid-cols-2 gap-4 pt-4'>
 
           <div className='flex'>
             <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
+              <CheckIcon className='w-7 mr-4 text-hover' />
             </div>
             <div>
-              <h3 className='font-bold text-lg'>Notifications</h3>
+              <h3 className='font-bold text-xl inline border-b-4 border-secondary'>Chet elda oqish</h3>
               <p className='text-lg pt-2 pb-4'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores maxime deserunt voluptatibus consequatur similique
@@ -29,10 +29,10 @@ const AllInOne = () => {
           </div>
           <div className='flex'>
             <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
+              <CheckIcon className='w-7 mr-4 text-hover' />
             </div>
             <div>
-              <h3 className='font-bold text-lg'>Notifications</h3>
+              <h3 className='font-bold text-xl inline border-b-4 border-secondary'>Darslar</h3>
               <p className='text-lg pt-2 pb-4'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores maxime deserunt voluptatibus consequatur similique
@@ -42,10 +42,10 @@ const AllInOne = () => {
           </div>
           <div className='flex'>
             <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
+              <CheckIcon className='w-7 mr-4 text-hover' />
             </div>
             <div>
-              <h3 className='font-bold text-lg'>Notifications</h3>
+              <h3 className='font-bold text-xl inline border-b-4 border-secondary'>Tillar</h3>
               <p className='text-lg pt-2 pb-4'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores maxime deserunt voluptatibus consequatur similique
@@ -55,10 +55,10 @@ const AllInOne = () => {
           </div>
           <div className='flex'>
             <div>
-              <CheckIcon className='w-7 mr-4 text-green-600' />
+              <CheckIcon className='w-7 mr-4 text-hover' />
             </div>
             <div>
-              <h3 className='font-bold text-lg'>Notifications</h3>
+              <h3 className='font-bold text-xl inline border-b-4 border-secondary'>Notifications</h3>
               <p className='text-lg pt-2 pb-4'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores maxime deserunt voluptatibus consequatur similique

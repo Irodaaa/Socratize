@@ -23,12 +23,13 @@ module.exports = {
         'footer-texture': "url('/img/footer-texture.png')",
       },
       colors: {
-        primary: "#0041b0",
-        secondary: "#684ee6",
-        hover: "#89dbdb"
+        primary: "#a0d1d5",
+        secondary: "#b4738b",
+        hover: "#4f2928"
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        poppins: ["Open Sans", "sans-serif"],
+        poppinss: ['Josefin Sans', "sans-serif"],
       },
     },
   },

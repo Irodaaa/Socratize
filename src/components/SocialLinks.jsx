@@ -1,7 +1,7 @@
 import React from 'react';
 import {GrInstagram} from 'react-icons/gr'
 import {BsTelegram} from 'react-icons/bs'
-import {HiOutlineMail} from 'react-icons/hi'
+import {AiFillMail} from 'react-icons/ai'
 
 
 const SocialLinks = () => {
@@ -11,17 +11,17 @@ const SocialLinks = () => {
             id:1,
             child: (
                 <>
-                    Instagram<GrInstagram size={30}/>
+                    Instagram<GrInstagram className='fill-hover outline-hidden' size={30}/>
                 </>
             ),
-            href: 'https://instagram.com',
+            href: 'https://www.instagram.com/socratize.uz/',
             style: 'rounded-tr-md'
         },
         {
             id:2,
             child: (
                 <>
-                    Telegram<BsTelegram size={30}/>
+                    Telegram<BsTelegram className='fill-hover outline-hidden' size={30}/>
                 </>
             ),
             href: 'https://telegram.com',
@@ -30,7 +30,7 @@ const SocialLinks = () => {
             id:3,
             child: (
                 <>
-                    Mail<HiOutlineMail size={30}/>
+                    Mail<AiFillMail className='fill-hover outline-none' size={30}/>
                 </>
             ),
             href: 'https://instagram.com',
@@ -41,9 +41,9 @@ const SocialLinks = () => {
             <ul>
                 {
                     links.map(({id,child, href, style}) => (
-                        <li key={id} className={'flex justify-between items-center w-40 h-14 px-4 hover:rounded-md hover:ml-[-10px] ml-[-100px] duration-300 bg-black'
+                        <li key={id} className={'flex justify-between items-center w-40 h-14 pl-3 pr-2 hover:rounded-md hover:ml-[-10px] ml-[-100px] duration-300 bg-black'
                             + '' + style}>
-                            <a href={href} className='flex justify-between items-center w-full'>
+                            <a href={href} className='flex justify-between items-center w-full text-xl'>
                                 {child}
                             </a></li>))
                 }
