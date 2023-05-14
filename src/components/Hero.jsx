@@ -11,19 +11,19 @@ import {FaFastForward} from 'react-icons/fa'
 import {BsFillCalendarCheckFill} from 'react-icons/bs'
 import {MdOutlineNavigateNext} from 'react-icons/md'
 
-import bgImg from '../assets/teenagers-distance-learning-online-education-3d-character-illustration-png.webp'
+import bgImg from '../assets/3d-online-education-illustration-png.png'
 import {Link} from "react-scroll";
 
 const Hero = () => {
   return (
-    <div name='home' className='w-full h-screen bg-zinc-200 flex flex-col justify-between font-poppinss text-hover'>
+    <div name='home' className='w-full h-screen bg-zinc-100 flex flex-col justify-between font-poppinss text-hover'>
         <div className='grid md:grid-cols-2 max-w-[1240px] m-auto pr-0'>
             <div className='flex flex-col justify-center md:items-start w-full pl-2 pr-0 py-8 leading-loose'>
                 <h1 className='py-3 text-5xl md:text-7xl font-bold tracking-wide'>Chet elda oqish yoki ishlashni istaysizmi?</h1>
                 <p className='text-3xl pt-2 text-secondary'>Biz sizga yordam beramiz!</p>
                 <button className='py-3 px-2 sm:w-[60%] my-4 duration-300 hover:scale-110 bg-primary text-hover border-primary font-bold text-xl'>Tutorlar</button>
             </div>
-            <div>
+            <div className='flex flex-col'>
                 <img className='flex pl-0 ml-0 max-w-screen-md duration-300 pl-0' src={bgImg} alt="/" />
             </div>
             <div className='absolute flex flex-col py-8 md:min-w-[760px] bottom-[5%]

@@ -46,10 +46,10 @@ const Navbar = () => {
             <div className='w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg font-poppinss'>
                 <div className='px-1 flex justify-between items-center w-full h-full'>
                     <div className='flex items-center font-poppinss'>
-                        <div className='flex items-center font-bold pl-4'>
-                        <img src={logo} className='h-14 w-16' alt='logotype'/>
-                        </div>
-                        <h1 className='pl-0 ml-0 font-bold mr-4 sm:text-3xl font-poppins tracking-widest uppercase px-12 text-secondary font-extrabold'>Socratize</h1>
+                        {/*<div className='flex items-center font-bold pl-4'>*/}
+                        {/*<img src={logo} className='h-14 w-16' alt='logotype'/>*/}
+                        {/*</div>*/}
+                        <h1 className='pr-10 ml-0 font-bold mr-4 sm:text-3xl font-poppins tracking-widest uppercase px-12 text-secondary font-extrabold'>Logo</h1>
                         <ul className='hidden md:flex text-secondary font-medium text-xl'>
                             <li className='tracking-widest px-10'><Link to="home" smooth={true} duration={500}>Bosh sahifa</Link></li>
                             <li className='tracking-widest px-10'><Link to="about" smooth={true} offset={-200} duration={500}>Ma'lumot</Link></li>
